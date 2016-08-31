@@ -1,3 +1,7 @@
+apply plugin: 'maven'
+
+apply from: 'http://dev.local/gradle/android/uploadArchives.groovy'
+
 buildscript {
     repositories {
         jcenter()
