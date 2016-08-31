@@ -1,4 +1,4 @@
-# SQLite4a [![Apache License](https://img.shields.io/badge/license-Apache%20v2-blue.svg)](https://github.com/DanielSerdyukov/sqlite4a/blob/master/LICENSE) [![Build Status](https://gitlab.exzogeni.com/android/sqlite4a/badges/master/build.svg)](https://github.com/DanielSerdyukov/sqlite4a)
+# Unidev forked SQLite4a
 
 Simple jni wrapper for SQLite.
 
@@ -6,7 +6,7 @@ Simple jni wrapper for SQLite.
 
 ### Gradle
 ```groovy
-compile 'com.unidev.sqlite4a:library:3.14.1-r1'
+compile 'com.unidev.sqlite4a:library:1.0.0-SNAPSHOT'
 ```
 
 ### Some examples
