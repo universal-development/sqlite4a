@@ -6,7 +6,7 @@ Simple jni wrapper for SQLite.
 
 ### Gradle
 ```groovy
-compile 'sqlite4a:library:3.14.1-r1'
+compile 'com.unidev.sqlite4a:library:3.14.1-r1'
 ```
 
 ### Some examples
