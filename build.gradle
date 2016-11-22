@@ -1,6 +1,9 @@
 apply plugin: 'maven'
 
+
 apply from: 'http://dev.local/gradle/android/uploadArchives.groovy'
+apply from: 'http://dev.local/gradle/android/defaultRepositories.groovy'
+
 
 buildscript {
     repositories {
@@ -19,6 +22,9 @@ allprojects {
     repositories {
         jcenter()
     }
+    apply plugin: 'maven'
+    apply from: 'http://dev.local/gradle/android/uploadArchives.groovy'
+    apply from: 'http://dev.local/gradle/android/defaultRepositories.groovy'
 }
 
 task wrapper(type: Wrapper) {
